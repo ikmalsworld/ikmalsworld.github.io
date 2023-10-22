@@ -273,7 +273,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("https://media.githubusercontent.com/media/ikmalsworld/ikmalsworld.github.io/main/image/hero-bg.jpg") top right no-repeat;
+  background: url("https://media.githubusercontent.com/media/ikmalsworld/ikmalsworld.github.io/main/assets/css/hero-bg.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -475,7 +475,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -1208,8 +1208,11 @@ section {
 }
 
 .picture {
-border: 4px solid #62DEA9;
+border: 0px;
 border-radius: 25px;
+width: 600px;
+height: 600px;
+object-fit: cover;
 }
 
 .alert{
@@ -1217,4 +1220,16 @@ padding: 20px;
   background-color: #f44336; /* Red */
   color: white;
   margin-bottom: 15px;
+}
+
+.swiper {
+  border-radius: 25px;
+  border: 7px solid #62DEA9;
+  width: 600px;
+  height: 600px;
+  .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
