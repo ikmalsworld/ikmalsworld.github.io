@@ -26,6 +26,11 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css" rel="stylesheet"/>
 
   <!-- =======================================================
   * Template Name: MyResume
@@ -127,7 +132,7 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-6 col-md-12">
+          <div class="col-lg-6 col-md-12 justify-content-center">
             <div class="count-box">
               <i class="bi bi-bicycle"></i>
               <span>Leisure Time</span>
@@ -145,18 +150,21 @@
         </div>
         <br>
         <div class="row">
-        <div class="col-lg-3 col-md-6">
-          <img class="picture" src="https://ikmalsworld.github.io/image/foto.jpeg" style="width: 250px; height: 250px; object-fit: cover;">
-        </div>
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <img class="picture" src="https://ikmalsworld.github.io/image/billiard.jpeg" style="width: 250px; height: 250px; object-fit: cover;">
+          <!-- Slider main container -->
+          <div class="swiper mt-3">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img class="picture" src="https://ikmalsworld.github.io/image/foto.jpeg" alt=""></div>
+              <div class="swiper-slide"><img class="picture" src="https://ikmalsworld.github.io/image/billiard.jpeg" alt=""></div>
+              <div class="swiper-slide"><img class="picture" src="https://ikmalsworld.github.io/image/tanaman.jpeg" alt=""></div>
+              <div class="swiper-slide"><img class="picture" src="https://ikmalsworld.github.io/image/belajar.jpeg" alt=""></div>
             </div>
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <img class="picture" src="https://ikmalsworld.github.io/image/tanaman.jpeg" style="width: 250px; height: 250px; object-fit: cover;">
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev" style="color: #62DEA9;"></div>
+            <div class="swiper-button-next" style="color: #62DEA9;"></div>
           </div>
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <img class="picture" src="https://ikmalsworld.github.io/image/belajar.jpeg" style="width: 250px; height: 250px; object-fit: cover;">
-            </div>
+          </div>
           </div>
         </div>
       </div>
